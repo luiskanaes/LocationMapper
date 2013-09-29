@@ -35,7 +35,7 @@ public class LocationListenerService extends Service implements LocationListener
 				addProximityAlert();
 			} else if (PROXIMTY_ALERT_INTENT.equals(intent.getAction())) {
 				handleProximityAlert(intent);
-			}
+			}  
 		}
 
 		private void handleProximityAlert(Intent intent) {
